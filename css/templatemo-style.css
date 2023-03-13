@@ -107,6 +107,10 @@ html {
   margin-bottom: 4rem;
 }
 
+.fs-12 {
+  font-size: 12px;
+}
+
 .col-lg-3,
 .col-lg-4,
 .col-lg-6,
@@ -125,6 +129,10 @@ html {
   -ms-flex: 0 0 100%;
   flex: 0 0 100%;
   max-width: 100%;
+}
+
+.col-12-home {
+  width: 1440px;
 }
 
 @media (min-width: 576px) {
@@ -543,6 +551,14 @@ address {
 
 .tm-description-figure {
   text-align: center;
+}
+
+.tm-description-figure2 {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  margin-top: 5rem;
+  margin-left: 2rem;
 }
 
 .tm-description-box {
@@ -1037,6 +1053,14 @@ address {
   .img-menu {
     width: 70%;
     height: 200px;
+  }
+
+  .tm-description-figure2 {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin-top: 2rem;
+    margin-left: 4rem;
   }
 }
 
